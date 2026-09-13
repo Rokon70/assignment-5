@@ -23,9 +23,9 @@ export default function Footer() {
             modern software.
           </p>
           <div className="flex gap-4 mt-4 text-sm font-medium text-slate-600">
-            <a href="#">GitHub</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://github.com/Rokon70" target="_blank">GitHub</a>
+            <a href="https://x.com/Rokon_Editor" target="blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/rokon-sarker/" target="_blank">LinkedIn</a>
           </div>
         </div>
 
