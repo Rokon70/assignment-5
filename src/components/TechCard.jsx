@@ -47,6 +47,9 @@ export default function TechCard({ tech, isAdded, onAdd }) {
             e.currentTarget.style.display = "none";
           }}
         />
+        {/* <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-50 text-slate-400">
+          {badge}
+        </span> */}
         <span className={`text-xs font-medium px-2.5 py-1 rounded-full ${getBadgeColor(badge)}`}>
           {badge}
         </span>
