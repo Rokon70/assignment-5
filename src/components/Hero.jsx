@@ -32,7 +32,7 @@ export default function Hero() {
 
       <div className="flex justify-center md:justify-end">
         <img
-          // src="./src/assets/Image.jpg"
+          // src="./src/assets/banner-stack.png"
           // src="https://www.codegeeks.solutions/_next/image?url=https%3A%2F%2Fqcayzxvauytdssvg.public.blob.vercel-storage.com%2Fseed-6a0b14f5945ce33c99020e96_b3b67782-7d53-47bd-aa9d-375209e85793-7.png&w=1200&q=75"
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLwuiQkMvDTTs_wR6kZ7S_QvuBVlxWBLB5VRhxsnv-AS9gpxeoOmhRhXb_iXI9CDP39ZpSOdzkSd_O3QTf6zHZHzWVg-g8QGAAixC5-wmZ_oelCiqZQlIpkBD86mePw9d8ki9nLZUkNrst58ZEnDo_APr0P41j2SjVhcTKqAROxNZBSzdbqYmS98v2ThKF/w640-h426-rw/ai-tools-work-2025.webp"
           alt="Development stack illustration"
