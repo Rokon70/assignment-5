@@ -29,8 +29,8 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Product / Company / Legal */}
-        <div className="md:col-span-2 grid grid-cols-4 gap-6">
+       {/* Product - Company - Legal */}
+        <div className="md:col-span-2 grid grid-cols-3 gap-6">
           {LINK_GROUPS.map((group) => (
             <div key={group.title}>
               <h4 className="text-xs font-bold uppercase tracking-wide text-brand-gradient hover:text-slate-900 mb-3">
