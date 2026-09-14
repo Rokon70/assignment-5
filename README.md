@@ -4,10 +4,14 @@
 backend, database, and tooling technologies, and build their own custom
 "development stack" by adding technologies to a personal selection panel.
 
+## 🌐 Live Demo
+
+[View Live Website](https://devstrack.netlify.app/)
+
 ## 🛠️ Technology Used
 
 - **React.js** — component-based UI
-- **Vite** — build tool / dev server
+- **Vite** — build tool/dev server
 - **Tailwind CSS** — utility-first styling
 - **React-Toastify** — toast notifications
 - **JSON** — technology data source (fetched, not hardcoded)
