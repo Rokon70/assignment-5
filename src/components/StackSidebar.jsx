@@ -3,12 +3,12 @@ export default function StackSidebar({ stack, onRemove, onRemoveAll }) {
 
   return (
     <aside className="bg-white border border-slate-200 rounded-2xl p-5 h-fit md:sticky md:top-24">
-      <div className="flex items-center justify-between mb-1">
+      <div className="flex items-center justify-between mb-1 ">
         <h3 className="font-bold text-slate-900">Your Stack</h3>
         {/* {count > 0 && (
           <button
             onClick={onRemoveAll}
-            className="text-xs font-medium text-pink-600 hover:text-slate-700"
+            className="mt-4 w-24 text-sm font-semibold text-pink-600 border border-pink-200 border-x-pink-400 rounded-lg py-2 hover:bg-pink-50 transition-colors"
           >
             Remove All
           </button>
@@ -30,7 +30,7 @@ export default function StackSidebar({ stack, onRemove, onRemoveAll }) {
           {stack.map((tech) => (
             <li
               key={tech.id}
-              className="flex items-center gap-3 border border-slate-100 rounded-xl p-3"
+              className="flex items-center gap-3 border border-slate-100 rounded-xl p-3 hover:shadow-md hover:-translate-x-1.5"
             >
               <img
                 src={tech.icon}
@@ -55,12 +55,12 @@ export default function StackSidebar({ stack, onRemove, onRemoveAll }) {
         </ul>
       )}
       {count > 0 && (
-      <button
-        onClick={onRemoveAll}
-        className="mt-4 w-full text-sm font-semibold text-pink-600 border border-pink-200 border-x-pink-400 rounded-lg py-2 hover:bg-pink-50 transition-colors"
-      >
-        Remove All
-      </button>
+        <button
+          onClick={onRemoveAll}
+          className="mt-4 w-full items- text-sm font-semibold text-pink-600 border border-pink-200 border-x-pink-500 rounded-lg py-2 hover:bg-pink-50 transition-colors hover:shadow-md"
+        >
+          Remove All
+        </button>
       )}
     </aside>
   );

@@ -2,28 +2,27 @@ export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-5 md:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-slate-900">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-slate-900 hover:first-line:shadow">
           Build Your Ideal
           <br />
           <span className="text-brand-gradient">Development Stack</span>
         </h1>
 
         <p className="mt-6 text-slate-500 text-lg max-w-md">
-          Explore frontend, backend, database, and tooling options, compare
-          them side by side, and put together the stack that fits your next
-          project.
+          Explore frontend, backend, database, and tooling options, compare them
+          side by side, and put together the stack that fits your next project.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <a
             href="#technologies"
-            className="px-6 py-3 rounded-lg text-white font-semibold bg-brand-gradient hover:opacity-90 transition-opacity"
+            className="px-6 py-3 rounded-lg text-white font-semibold bg-brand-gradient hover:opacity-90 transition-opacity shadow-md hover:shadow-xl hover:-translate-y-0.5"
           >
             Explore Technologies
           </a>
           <a
             href="#about"
-            className="px-6 py-3 rounded-lg font-semibold text-slate-700 border border-slate-300 hover:border-slate-400 transition-colors"
+            className="px-6 py-3 rounded-lg font-semibold text-slate-700 border border-slate-300 hover:border-slate-900"
           >
             Learn More
           </a>
