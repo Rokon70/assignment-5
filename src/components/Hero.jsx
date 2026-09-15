@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-5 md:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
       <div>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-slate-700">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-slate-800">
           Build Your Ideal
           <br />
           <span className="text-brand-gradient">Development Stack</span>

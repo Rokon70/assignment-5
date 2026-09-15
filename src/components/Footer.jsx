@@ -9,8 +9,8 @@ export default function Footer() {
     <footer className="border-t border-slate-100 mt-20">
       <div className="max-w-7xl mx-auto px-5 md:px-8 py-14 grid md:grid-cols-3 gap-10">
        
-        <div className="md:col-span-1">
-          <div className="flex items-center gap-2 mb-3">
+        <div className="md:col-span-1 text-center md:text-lef">
+          <div className="flex items-center justify-center md:justify-start gap-2 mb-3">
             <div className="w-8 h-8 rounded-md bg-brand-gradient flex items-center justify-center text-white font-bold text-xs">
               DS
             </div>
@@ -18,13 +18,15 @@ export default function Footer() {
               Dev<span className="text-brand-gradient">Stack</span>
             </span>
           </div>
-          <p className="text-sm text-slate-500 max-w-xs">
+          <p className="text-sm text-slate-500 md:text-justify max-w-xs mx-auto md:mx-0">
             Curated tools, technologies, and resources for developers building
             modern software.
           </p>
-          <div className="flex gap-4 mt-4 text-sm font-medium text-slate-600">
+          <div className="flex items-center justify-center md:justify-start gap-3 mt-4 text-sm font-medium text-slate-600">
             <a href="https://github.com/Rokon70" target="_blank">GitHub</a>
+            <span className="text-slate-800">•</span>
             <a href="https://x.com/Rokon_Editor" target="blank">Twitter</a>
+            <span className="text-slate-800">•</span>
             <a href="https://www.linkedin.com/in/rokon-sarker/" target="_blank">LinkedIn</a>
           </div>
         </div>
