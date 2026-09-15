@@ -6,8 +6,8 @@ const LINK_GROUPS = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-100 mt-20">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 py-14 grid md:grid-cols-3 gap-10">
+    <footer className="border-t border-slate-100 mt-10">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 py-6 grid md:grid-cols-3 gap-10">
        
         <div className="md:col-span-1 text-center md:text-lef">
           <div className="flex items-center justify-center md:justify-start gap-2 mb-3">
@@ -27,7 +27,7 @@ export default function Footer() {
             <span className="text-slate-800">•</span>
             <a href="https://x.com/Rokon_Editor" target="blank">Twitter</a>
             <span className="text-slate-800">•</span>
-            <a href="https://www.linkedin.com/in/rokon-sarker/" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/rokon-sarker/" target="_blank">Linkedin</a>
           </div>
         </div>
 

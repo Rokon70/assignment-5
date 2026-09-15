@@ -37,7 +37,7 @@ export default function TechCard({ tech, isAdded, onAdd }) {
   const { name, category, description, icon, rating, difficulty, badge } = tech;
 
   return (
-    <div className="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+    <div className="bg-white border border-slate-200 rounded-2xl p-4 flex flex-col shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
       <div className="flex items-start justify-between mb-4">
         <img
           src={icon}

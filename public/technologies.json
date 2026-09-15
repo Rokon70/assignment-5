@@ -36,18 +36,18 @@
     "description": "The standard markup language for structuring content on the web.",
     "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
     "rating": 4.8,
-    "difficulty": "Beginner-Friendly",
+    "difficulty": "Intermediate",
     "badge": "Foundational"
   },
   {
-    "id": "nodejs",
-    "name": "Node.js",
-    "category": "Backend",
-    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
-    "rating": 4.8,
-    "difficulty": "Intermediate",
-    "badge": "Standard"
+  "id": "CSS",
+  "name": "CSS",
+  "category": "Frontend",
+  "description": "A style sheet language used for describing the presentation of a document written in HTML.",
+  "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png",
+  "rating": 4.9,
+  "difficulty": "Intermediate",
+  "badge": "Styling"
   },
   {
     "id": "express",
